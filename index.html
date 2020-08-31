@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
+    />
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  </head>
+
+  <body class="body">
+    <div class="colorpicker ui-widget-content" style="border: 0">
+      
+
+      <div class="select">
+        <h2 class="select__title">Select:</h2>
+        <button
+          class="ui-button ui-widget ui-corner-all select__color-button"
+          id="color-button"
+        >
+          color
+        </button>
+        <button
+          class="ui-button ui-widget ui-corner-all select__background-button"
+          id="back-button"
+
+        >
+          backgroundColor
+        </button>
+      </div>
+
+      <div id="red"></div>
+      <div id="green"></div>
+      <div id="blue"></div>
+
+      <div id="swatch" class="ui-widget-content ui-corner-all">
+        <p id="swatch-text" class="colorpicker__text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+      </div>
+    </div>
+  </body>
+
+  <script src="./js/script.js"></script>
+</html>

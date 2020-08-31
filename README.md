@@ -1,2 +1,4 @@
 # slider-jquery-test
-test for Crazy Panda
+Одно из тестовых заданий для Crazy Panda  
+
+*Настройка jQuery Slider  Colorpicker*
